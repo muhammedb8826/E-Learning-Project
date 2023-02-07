@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --main-color-black: #272a31;
+  --main-color-red: #ec5242;
+  --main-color-gray: #d3d3d3;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "lato", sans-serif;
+  font-weight: normal;
+}
+
+.header {
+  position: relative;
+}
+
+header .logo {
+  display: none;
+}
+
+nav {
+  display: none;
+}
+
+nav.change {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  user-select: none;
+  z-index: 1;
+}
+
+.change ul li {
+  width: 100%;
+  border: #ec5242 solid 2px;
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.change ul li a {
+  text-decoration: none;
+  color: var(--main-color-gray);
+  font-size: 2rem;
+}
+
+.main-program .see-program a {
+  color: var(--main-color-gray);
+  display: none;
+}
+
+.change ul li a:hover {
+  color: var(--main-color-black);
+  background-color: var(--main-color-gray);
+}
+
+.mobile-menu-bg {
+  display: none;
+}
+
+.mobile-menu-bg.change {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  backdrop-filter: blur(8px);
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  user-select: none;
+  background-color: var(--main-color-black);
+  z-index: 1;
+}
+
+/* ********** hamburger menu ************ */
+
+.hamburger-menu {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 2rem;
+  height: 5px;
+  margin: 5px 0;
+  background-color: #272a31;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 10px) rotate(45deg);
+  background-color: var(--main-color-gray);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: translate(0, -10px) rotate(-45deg);
+  background-color: var(--main-color-gray);
+}
+
+/* ************** main page ********* */
+.main {
+  background-image: url(/images/background-image.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(8px);
+  mix-blend-mode: multiply;
+  height: 92vh;
+}
+
+.title-and-description {
+  color: var(--main-color-black);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  height: 100%;
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgb(211, 211, 211, 0.8),
+      rgb(211, 211, 211, 0.9),
+      rgb(211, 211, 211, 1),
+      rgb(211, 211, 211, 1),
+      rgb(211, 211, 211, 1),
+      rgb(211, 211, 211, 1),
+      rgb(211, 211, 211, 0.9),
+      rgb(211, 211, 211, 0.8)
+    );
+}
+
+.title-and-description .main-title {
+  color: var(--main-color-red);
+}
+
+.title-and-description .hero-title {
+  color: transparent;
+  font-weight: 900;
+  font-size: 1.95rem;
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-image: url(/images/code-image-clip.jpg);
+  /* stylelint-disable-next-line csstree/validator */
+  background-clip: text;
+  background-position: center;
+}
+
+.title-and-description .description-text {
+  border: 2px solid white;
+  padding: 1rem;
+}
+
+.title-and-description .program-time {
+  font-weight: 900;
+}
+
+.title-and-description .program-place {
+  font-weight: 400;
+}
+
+/* *********** mainprogram section ****** */
+
+.main-program {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  background-color: var(--main-color-black);
+  color: var(--main-color-gray);
+  background-image: url(/images/pattern.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 60%;
+  backdrop-filter: blur(8px);
+  mix-blend-mode: multiply;
+}
+
+.main-program .main-program-title {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.main-program-title::after {
+  content: "";
+  position: absolute;
+  top: 5.5rem;
+  left: 50%;
+  width: 3rem;
+  height: 1px;
+  transform: translate(-50%, -50%);
+  background-color: #ec5242;
+}
+
+.main-program .program-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.main-program .program-container .content {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgb(73, 79, 92, 0.9);
+}
+
+.content .title {
+  color: var(--main-color-red);
+  font-size: 1.5rem;
+}
+
+.main-program .join-btn {
+  background-color: var(--main-color-red);
+  color: var(--main-color-gray);
+  outline: none;
+  border: none;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 7px rgb(0, 0, 0, 0.2);
+    padding: 2rem;
+  }
+
+  header .logo {
+    display: block;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .mobile-menu-bg.change {
+    display: none;
+  }
+
+  nav ul li {
+    list-style: none;
+    padding-inline: 1.2rem;
+  }
+
+  .change ul li {
+    display: none;
+  }
+
+  nav {
+    display: block;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: var(--main-color-black);
+    padding: 0.5rem;
+  }
+
+  .main-program .see-program a {
+    display: block;
+  }
+
+  #codingCampaign a {
+    color: #ec5242;
+    border: 4px solid var(--main-color-red);
+  }
+
+  /* ************ main ******** */
+
+  .title-and-description {
+    padding: 0 10em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-and-description .main-title {
+    font-size: 3em;
+    font-weight: 400;
+  }
+
+  .title-and-description .hero-title {
+    font-size: 5em;
+    width: 62%;
+    font-weight: 900;
+  }
+
+  .title-and-description .description-text {
+    width: 50%;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 2em;
+  }
+
+  .title-and-description .program-time {
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+
+  .title-and-description .program-place {
+    font-size: 1.5rem;
+  }
+
+  .main-program .program-container {
+    flex-direction: row;
+    gap: 0.2rem;
+  }
+
+  .content:hover {
+    border: 3px solid var(--main-color-gray);
+    cursor: pointer;
+  }
+
+  .main-program .program-container .content {
+    flex-direction: column;
+  }
+
+  .main-program .program-container .last {
+    display: none;
+  }
+
+  .main-program .join-btn {
+    display: none;
+  }
+
+  .main-program {
+    background-size: 15%;
+    padding: 4rem 10rem;
+  }
+
+  .main-program-title::after {
+    top: 8rem;
+  }
+}
