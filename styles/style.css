@@ -338,7 +338,7 @@ nav.change {
     justify-content: space-between;
     align-items: center;
     box-shadow: 2px 2px 7px rgb(0, 0, 0, 0.2);
-    padding: 2rem;
+    padding: 1.2rem;
   }
 
   header .logo {
@@ -374,6 +374,11 @@ nav.change {
     text-decoration: none;
     color: var(--main-color-black);
     padding: 0.5rem;
+    font-weight: 500;
+  }
+
+  ul li a:hover {
+    color: var(--main-color-red);
   }
 
   .main-program .see-program a {
