@@ -24,18 +24,8 @@ body.change {
   overflow: hidden;
 }
 
-.logo {
-  font-size: 1.2rem;
-  color: var(--main-color-black);
-  font-weight: 900;
-}
-
 .header {
   position: relative;
-}
-
-header .logo {
-  display: none;
 }
 
 nav {
@@ -52,6 +42,10 @@ nav.change {
   align-items: center;
   z-index: 1;
   height: 100vh;
+}
+
+nav.change .logo {
+  display: none;
 }
 
 .change ul {
@@ -152,7 +146,12 @@ nav.change {
   justify-content: center;
   align-items: center;
   width: 100%;
+  gap: 1rem;
   background-image: url(../images/bg-desktop.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
 }
 
 .title-and-description {
@@ -493,14 +492,6 @@ nav.change {
     width: 40%;
   }
 
-  .logo {
-    font-size: 2rem;
-  }
-
-  header .logo {
-    display: block;
-  }
-
   .hamburger-menu {
     display: none;
   }
@@ -527,8 +518,17 @@ nav.change {
     width: 100%;
   }
 
+  nav .logo {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+
+  nav .logo a {
+    text-decoration: none;
+    color: var(--main-color-black);
+  }
+
   nav ul {
-    margin-left: auto;
     display: flex;
   }
 
