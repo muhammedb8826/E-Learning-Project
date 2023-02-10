@@ -173,7 +173,7 @@ For stylelint errors run:<code>sudo npx stylelint "\*_/_.{css,scss}" --fix</code
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/muhammedb8826/Portfolio-setup-and-mobile-first/issues).
+Feel free to check the [issues page](https://github.com/muhammedb8826/E-Learning-Project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
