@@ -18,7 +18,7 @@ const data = [
     para2: 'Bokeman professor at enterpreneur leal studies at microverse leal studies at microverse',
   },
   {
-    image: ['./images/4.jpeg', './images/transparent-bg.jpg'],
+    image: ['./images/4.jpg', './images/transparent-bg.jpg'],
     name: 'Yochai Benkler',
     para1: 'Bokeman professor at enterpreneur leal studies at microverse',
     para2: 'Bokeman professor at enterpreneur leal studies at microverse leal studies at microverse',
@@ -42,7 +42,7 @@ const data = [
     para2: 'Bokeman professor at enterpreneur leal studies at microverse leal studies at microverse',
   },
   {
-    image: ['./images/8.jpeg', './images/transparent-bg.jpg'],
+    image: ['./images/8.jpg', './images/transparent-bg.jpg'],
     name: 'Yochai Benkler',
     para1: 'Bokeman professor at enterpreneur leal studies at microverse',
     para2: 'Bokeman professor at enterpreneur leal studies at microverse leal studies at microverse',
