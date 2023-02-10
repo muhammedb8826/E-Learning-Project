@@ -82,7 +82,7 @@
 - **HTML**
 - **CSS**
 - **Linters and Stylelint**
-- eslint
+- **eslint**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,7 +191,8 @@ If you like this project give a ⭐️
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank Microverse for teaching me how to code
+First I would like to thank Microverse for teaching me how to code
+Second I would like to thank Cindy Shin for giving us the design to work with
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
