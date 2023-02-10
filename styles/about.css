@@ -213,12 +213,17 @@ hr {
     display: none;
   }
 
-  .logo-and-description .logo {
+  .footer .logo-and-description .logo {
+    float: left;
+  }
+
+  .footer .logo-and-description .logo a {
     color: var(--main-color-gray);
   }
 
   .footer .logo-and-description {
     background-color: var(--main-color-black);
     color: var(--main-color-gray);
+    float: right;
   }
 }

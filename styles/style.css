@@ -148,10 +148,7 @@ nav.change .logo {
   width: 100%;
   gap: 1rem;
   background-image: url(../images/bg-desktop.png);
-  background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
-  object-fit: contain;
 }
 
 .title-and-description {
@@ -403,7 +400,7 @@ nav.change .logo {
   filter: grayscale(100%);
 }
 
-.logo-and-description {
+.footer .logo-and-description {
   width: 100%;
   display: flex;
   align-items: center;
@@ -412,10 +409,20 @@ nav.change .logo {
   padding: 1rem;
 }
 
+.footer .logo-and-description .logo {
+  float: left;
+}
+
+.footer .logo-and-description .logo a {
+  color: var(--main-color-black);
+  text-decoration: none;
+}
+
 .logo-and-description .description {
   width: 50%;
   padding: 1rem 0;
   font-size: 0.8rem;
+  float: right;
 }
 
 #desktop {
@@ -514,11 +521,11 @@ nav.change .logo {
     justify-content: space-between;
     align-items: center;
     box-shadow: 2px 2px 7px rgb(0, 0, 0, 0.2);
-    padding: 1rem;
+    padding: 1.5rem;
     width: 100%;
   }
 
-  nav .logo {
+  .logo {
     font-size: 1.5rem;
     font-weight: 900;
   }
