@@ -208,4 +208,17 @@ hr {
   .image-and-text {
     width: 32%;
   }
+
+  .footer .footer-section {
+    display: none;
+  }
+
+  .logo-and-description .logo {
+    color: var(--main-color-gray);
+  }
+
+  .footer .logo-and-description {
+    background-color: var(--main-color-black);
+    color: var(--main-color-gray);
+  }
 }
