@@ -90,7 +90,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- To be added soon
+- You can see this project live [see live](https://muhammedb8826.github.io/E-Learning-Project/)
 
 > Link to github repository.
 
