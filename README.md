@@ -1,39 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -60,48 +26,67 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 E-Learning-Project <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> E-Learning-Project is a website that allows learners to quickly and more easily complete their training, resulting in improved performance and greater productivity. 
 
-**[your_project__name]** is a...
+**E-Learning-Project** is a static page that has been
 
 ## 🛠 Built With <a name="built-with"></a>
 
+- HTML, CSS
+- Git, Github
+- VSCode
+
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> HTML,
+> CSS,
+> Git,
+> Github
 
 <details>
-  <summary>Client</summary>
+  <summary>HTML</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://www.w3schools.com/html/">HTML COURSE</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>CSS</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS Course</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+<summary>Git</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://git-scm.com/">Learn about git</a></li>
   </ul>
 </details>
+
+<details>
+<summary>Github</summary>
+  <ul>
+    <li><a href="https://github.com/">Learn about git</a></li>
+  </ul>
+</details>
+
+
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> Features I used in this project mainly:
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **HTML**
+- **CSS**
+- **Linters and Stylelint**
+- **eslint**
+
+> Video of the project description [see the video](https://www.loom.com/share/6fadf70e4758423684d2f79671e24de0)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +94,11 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+- You can see this project live [see live](https://muhammedb8826.github.io/E-Learning-Project/)
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+> Link to github repository.
+
+- [E-Learning-Project](https://github.com/muhammedb8826/E-Learning-Project)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,83 +106,46 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
+
+git clone https://github.com/muhammedb8826/E-Learning-Project.git
 
 ### Prerequisites
 
+-NodeJS
+-Browser
+
 In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+git clone https://github.com/muhammedb8826/E-Learning-Project.git
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+cd E-Learning-Project
 
 ### Install
 
-Install this project with:
+Install project dependencies in this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+npm install
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, open the project with live server and visit http://localhost:5500
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+Open in browser
+http://localhost:5500
 
 ### Run tests
 
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+After pushing the changes on github, merge your pull request and let github action process changes.
 
 ### Deployment
 
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+Check for the tests when you generate a pull request and fix errors, if any.
+For stylelint errors run:<code>sudo npx stylelint "\*_/_.{css,scss}" --fix</code> for automatic fix.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,19 +153,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Muhammed Berisso**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/muhammedb8826)
+- Twitter: [@twitterhandle](https://twitter.com/muhammedb8826)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammed-berisso-a60783226/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +165,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Some features are coming soon.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[dark mode]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -237,7 +177,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/muhammedb8826/E-Learning-Project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,9 +185,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project give a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -257,23 +195,8 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+First I would like to thank Microverse for teaching me how to code
+Second I would like to thank Cindy Shin for giving us the design to work with
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
