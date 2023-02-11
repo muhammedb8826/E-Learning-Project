@@ -153,13 +153,13 @@ nav.change .logo {
 
 .title-and-description {
   color: var(--main-color-black);
-  padding: 4rem 1rem;
+  padding: 5rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
   width: 100%;
-  height: 75%;
+  height: 100%;
 }
 
 .title-and-description .main-title {
@@ -555,12 +555,11 @@ nav.change .logo {
   /* ************ main ******** */
 
   .title-and-description {
-    padding: 4rem 10em;
+    padding: 2.5rem 10rem;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
-    gap: 1rem;
     align-items: flex-start;
   }
 
