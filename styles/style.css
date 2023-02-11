@@ -44,6 +44,11 @@ nav.change {
   height: 100vh;
 }
 
+.logo {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
 nav.change .logo {
   display: none;
 }
@@ -523,11 +528,6 @@ nav.change .logo {
     box-shadow: 2px 2px 7px rgb(0, 0, 0, 0.2);
     padding: 1.5rem;
     width: 100%;
-  }
-
-  .logo {
-    font-size: 1.5rem;
-    font-weight: 900;
   }
 
   nav .logo a {

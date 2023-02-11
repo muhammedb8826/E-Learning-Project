@@ -101,6 +101,11 @@
   background-color: #fff;
 }
 
+.join-btn .logo a {
+  color: var(--main-color-black);
+  text-decoration: none;
+}
+
 hr {
   background-color: var(--main-color-gray);
   border: none;
