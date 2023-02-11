@@ -73,6 +73,8 @@
   </ul>
 </details>
 
+
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -83,6 +85,8 @@
 - **CSS**
 - **Linters and Stylelint**
 - **eslint**
+
+> Video of the project description [see the video](https://www.loom.com/share/6fadf70e4758423684d2f79671e24de0)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
