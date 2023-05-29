@@ -1,5 +1,7 @@
 <a name="readme-top"></a>
 
+# CODING WITH M.B GLOBAL SUMMIT 2023
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -28,20 +30,32 @@
 
 # 📖 E-Learning-Project <a name="about-project"></a>
 
-> E-Learning-Project is a website that allows learners to quickly and more easily complete their training, resulting in improved performance and greater productivity. 
+E-Learning-Project is a website that allows learners to quickly and more easily complete their training, resulting in improved performance and greater productivity. 
+
+Images below give the look of the website: 
+
+![Screenshot 2023-05-30 011451](https://github.com/muhammedb8826/E-Learning-Project/assets/115731485/ebd73fb3-ca0b-470e-b731-4f596eec4685)
+
+![htmlcss](https://github.com/muhammedb8826/E-Learning-Project/assets/115731485/66479d6c-2b0e-4f0d-a09f-4b7d5773553d)
+
+It shows pertinent information about the Global Summit, including the main program, speakers, sponsors, and contact information. A Gallery from past Global Summit is displayed also.
+
+The development follows a mobile-first approach so you're sure to still have a good feel of the website on mobile devices. The home and about pages only are contained.
 
 **E-Learning-Project** is a static page that has been
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- HTML, CSS
+- HTML
+- CSS
+- JavaScript
 - Git, Github
-- VSCode
 
 ### Tech Stack <a name="tech-stack"></a>
 
 > HTML,
 > CSS,
+> JavaScript
 > Git,
 > Github
 
@@ -56,6 +70,13 @@
   <summary>CSS</summary>
   <ul>
     <li><a href="https://www.w3schools.com/css/">CSS Course</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>JavaScript</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript Course</a></li>
   </ul>
 </details>
 
@@ -79,14 +100,14 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Features I used in this project mainly:
+ Features I used in this project mainly:
 
 - **HTML**
 - **CSS**
 - **Linters and Stylelint**
 - **eslint**
 
-> Video of the project description [see the video](https://www.loom.com/share/6fadf70e4758423684d2f79671e24de0)
+ Video of the project description [see the video](https://www.loom.com/share/6fadf70e4758423684d2f79671e24de0)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,7 +117,7 @@
 
 - You can see this project live [see live](https://muhammedb8826.github.io/E-Learning-Project/)
 
-> Link to github repository.
+ Link to github repository.
 
 - [E-Learning-Project](https://github.com/muhammedb8826/E-Learning-Project)
 
@@ -112,8 +133,8 @@ git clone https://github.com/muhammedb8826/E-Learning-Project.git
 
 ### Prerequisites
 
--NodeJS
--Browser
+- Have git installed
+- A Browser e.g [Google chrome](https://www.google.com/chrome/?brand=YTUH&gclid=Cj0KCQjwmtGjBhDhARIsAEqfDEfRKU2GvO1DN2QwTrYx9cfws9gHY9Yh3zeA8pKp5xfgp2qvHj2gruQaAnqgEALw_wcB&gclsrc=aw.ds)
 
 In order to run this project you need:
 
@@ -136,7 +157,7 @@ npm install
 To run the project, open the project with live server and visit http://localhost:5500
 
 Open in browser
-http://localhost:5500
+open the index.html file on a browser
 
 ### Run tests
 
@@ -157,7 +178,7 @@ For stylelint errors run:<code>sudo npx stylelint "\*_/_.{css,scss}" --fix</code
 
 - GitHub: [@githubhandle](https://github.com/muhammedb8826)
 - Twitter: [@twitterhandle](https://twitter.com/muhammedb8826)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammed-berisso-a60783226/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammedb8826/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,7 +186,7 @@ For stylelint errors run:<code>sudo npx stylelint "\*_/_.{css,scss}" --fix</code
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Some features are coming soon.
+ Some features are coming soon.
 
 - [ ] **[dark mode]**
 
@@ -193,10 +214,10 @@ If you like this project give a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-First I would like to thank Microverse for teaching me how to code
-Second I would like to thank Cindy Shin for giving us the design to work with
+- Microverse
+- Design inspired by [Cindy Shin on Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- Coding partners
+- Code Reviewers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
