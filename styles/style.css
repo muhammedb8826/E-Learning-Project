@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
 
-                
 :root {
   --main-color-black: #272a31;
   --main-color-red: #ec5242;
@@ -154,7 +153,7 @@ nav.change .logo {
   justify-content: center;
   align-items: center;
   background-image: url(../images/bg-desktop.png);
-  background-size: fill;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 600px;
@@ -293,7 +292,7 @@ nav.change .logo {
   font-size: 1.1em;
   width: 100%;
   max-width: 100px;
- text-align-last: auto;
+  text-align-last: auto;
 }
 
 .main-program .join-btn {
@@ -483,7 +482,6 @@ nav.change .logo {
     width: 100%;
   }
 
-
   .ads-container .ad-content {
     width: 100%;
     max-width: var(--main-mx-width);
@@ -646,10 +644,7 @@ nav.change .logo {
     max-width: var(--main-mx-width);
   }
 
-
-  
   /* *****************featured speaker *********** */
-    
 
   .dynamic-content-container {
     display: flex;

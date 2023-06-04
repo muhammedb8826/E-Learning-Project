@@ -10,7 +10,7 @@
   align-items: center;
   text-align: center;
   max-width: var(--main-mx-width);
-   width: 100%;
+  width: 100%;
   height: 100%;
 }
 
@@ -186,8 +186,8 @@ hr {
   }
 
   .title-and-description .description-text {
-   width: 100%;
-   max-width: 1000px;
+    width: 100%;
+    max-width: 1000px;
   }
 
   .title-and-description .description-text p {
