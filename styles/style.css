@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
 
 :root {
   --main-color-black: #272a31;
@@ -181,7 +180,6 @@ nav.change .logo {
   -webkit-text-fill-color: transparent;
   background-position: center;
   color: #ec5242;
-  font-family: 'cocogoose', sans-serif;
   background-size: cover;
   font-size: 2em;
   width: 100%;
@@ -200,8 +198,8 @@ nav.change .logo {
 }
 
 .title-and-description .program-time {
-  font-family: 'cocogoose', sans-serif;
-  font-weight: 700;
+  font-weight: 900;
+  font-size: 2em;
 }
 
 .title-and-description .program-place {
