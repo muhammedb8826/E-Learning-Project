@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
 
+                
 :root {
   --main-color-black: #272a31;
   --main-color-red: #ec5242;
-  --main-color-gray: #d3d3d3;
+  --main-color-gray: #f8f8f8;
+  --main-mx-width: 1200px;
 }
 
 *,
@@ -45,8 +48,8 @@ nav.change {
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: 900;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 
 nav.change .logo {
@@ -150,19 +153,20 @@ nav.change .logo {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  gap: 1rem;
   background-image: url(../images/bg-desktop.png);
+  background-size: fill;
+  background-position: center;
   background-repeat: no-repeat;
+  height: 600px;
 }
 
 .title-and-description {
+  padding: 1em;
   color: var(--main-color-black);
-  padding: 5rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1rem;
+  max-width: var(--main-mx-width);
   width: 100%;
   height: 100%;
 }
@@ -178,19 +182,27 @@ nav.change .logo {
   -webkit-text-fill-color: transparent;
   background-position: center;
   color: #ec5242;
-  font-weight: 900;
-  font-size: 1.95rem;
+  font-family: 'cocogoose', sans-serif;
   background-size: cover;
+  font-size: 2em;
+  width: 100%;
+  font-weight: 900;
+  line-height: 30pt;
+  margin-top: 1rem;
 }
 
 .title-and-description .description-text {
-  border: 2px solid white;
+  border: 5px solid white;
   padding: 1rem;
-  background-color: rgb(211, 211, 211, 0.2);
+  margin: 1rem 0;
+  background-color: #f7f7f7;
+  max-width: 400px;
+  width: 100%;
 }
 
 .title-and-description .program-time {
-  font-weight: 900;
+  font-family: 'cocogoose', sans-serif;
+  font-weight: 700;
 }
 
 .title-and-description .program-place {
@@ -206,24 +218,32 @@ nav.change .logo {
   flex-direction: column;
   gap: 2rem;
   padding: 2rem 1rem;
+}
+
+.program {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   background-color: var(--main-color-black);
   color: var(--main-color-gray);
   background-image: url(../images/pattern.png);
   background-position: center;
   background-repeat: repeat;
-  background-size: 10%;
+  background-size: 5%;
   backdrop-filter: blur(8px);
 }
 
 .main-program .main-program-title {
-  padding: 1rem;
-  font-size: 1.5rem;
+  position: relative;
+  padding: 1em;
+  font-size: 1.5em;
 }
 
 .main-program-title::after {
   content: "";
   position: absolute;
-  top: 5.5rem;
+  top: 3em;
   left: 50%;
   width: 3rem;
   height: 1px;
@@ -241,11 +261,11 @@ nav.change .logo {
 }
 
 .main-program .program-container .content {
-  padding: 1rem 0.5rem;
+  padding: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.5em;
   background-color: rgb(73, 79, 92, 0.9);
   width: 100%;
 }
@@ -258,19 +278,22 @@ nav.change .logo {
 }
 
 .image-and-description-container img {
-  width: 30%;
+  width: 150px;
   z-index: 2;
-  padding: 0.5rem;
   object-fit: cover;
+  padding: 0.5em;
 }
 
 .content .icon img {
-  width: 100%;
+  width: 35px;
 }
 
 .content .title {
   color: var(--main-color-red);
-  font-size: 1.5rem;
+  font-size: 1.1em;
+  width: 100%;
+  max-width: 100px;
+ text-align-last: auto;
 }
 
 .main-program .join-btn {
@@ -284,27 +307,33 @@ nav.change .logo {
 
 /* *********** featured speakers section */
 
+.featured-speaker-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .featured-speaker {
-  padding: 1rem 1rem;
-  background-color: #fff;
+  width: 100%;
+  max-width: var(--main-mx-width);
 }
 
 .title-container {
   width: 100%;
-  padding: 1rem;
+  padding: 1em;
   text-align: center;
   color: var(--main-color-black);
 }
 
 .title-container .title-text {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .title-container .title-text::after {
   content: "";
   position: absolute;
-  top: 2.5rem;
+  top: 2em;
   left: 50%;
   width: 3rem;
   height: 1px;
@@ -313,10 +342,7 @@ nav.change .logo {
 }
 
 .dynamic-content-container {
-  padding: 2rem 0;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  padding: 1em;
 }
 
 .image-and-description-container {
@@ -325,22 +351,23 @@ nav.change .logo {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  margin-bottom: 1em;
 }
 
 .image-and-description-container .transparent-image {
   position: absolute;
-  top: -5px;
-  left: -5px;
-  width: 20%;
-  height: 50%;
+  top: -7px;
+  left: -7px;
+  width: 100px;
+  height: 100px;
   z-index: 1;
 }
 
 .name-and-description-container {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  font-size: 0.8rem;
+  gap: 0.5em;
+  font-size: 0.8em;
 }
 
 .name-and-description-container .name-of-professor {
@@ -441,41 +468,34 @@ nav.change .logo {
 @media (min-width: 768px) {
   header {
     box-shadow: 2px 2px 7px rgb(0, 0, 0, 0.2);
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .ads-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 2rem;
-    background-color: var(--main-color-gray);
+    height: 2em;
+    background-color: var(--main-color-black);
+    width: 100%;
   }
 
-  .ads-container .ad-1 {
-    height: 100%;
-    width: 50%;
-    border-bottom: 32px solid var(--main-color-black);
-    border-right: 50px solid transparent;
-  }
 
-  .ads-container .ad-2 {
-    height: 100%;
-    width: 50%;
+  .ads-container .ad-content {
+    width: 100%;
+    max-width: var(--main-mx-width);
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
   }
 
-  .ad-2 .ad-2-content {
+  .ad-content span {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 1rem;
-  }
-
-  .ad-2 span {
-    width: 4rem;
+    justify-content: center;
   }
 
   ul li a {
@@ -485,23 +505,21 @@ nav.change .logo {
     font-weight: 500;
   }
 
-  .ad-2 span a {
+  .ad-content span a {
     text-decoration: none;
     color: #fff;
+    width: 4em;
   }
 
-  .image-and-description-container img {
-    width: 30%;
-    z-index: 2;
+  .ad-content span #twitter {
+    width: 27%;
+    float: right;
+    margin-right: 1.5em;
   }
 
-  .ad-2 span img {
-    height: 50%;
-    width: 20%;
-  }
-
-  .ad-2 span #twitter {
-    width: 40%;
+  .ad-content span #facebook {
+    width: 15%;
+    float: right;
   }
 
   .hamburger-menu {
@@ -514,7 +532,7 @@ nav.change .logo {
 
   nav ul li {
     list-style: none;
-    padding-inline: 1rem;
+    padding-inline: 1em;
   }
 
   .change ul li {
@@ -525,9 +543,11 @@ nav.change .logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 2px 2px 7px rgb(0, 0, 0, 0.2);
-    padding: 1.5rem;
+    padding: 1.2em 0;
+    padding-left: 1em;
     width: 100%;
+    max-width: var(--main-mx-width);
+    z-index: 1;
   }
 
   nav .logo a {
@@ -539,7 +559,7 @@ nav.change .logo {
     display: flex;
   }
 
-  ul li a:hover {
+  nav ul li a:hover {
     color: var(--main-color-red);
   }
 
@@ -554,45 +574,48 @@ nav.change .logo {
 
   /* ************ main ******** */
 
+  .main {
+    height: 750px;
+  }
+
   .title-and-description {
-    padding: 2.5rem 10rem;
-    width: 100%;
-    height: 100%;
+    position: relative;
+    top: -3.5em;
     display: flex;
     justify-content: center;
     align-items: flex-start;
   }
 
   .title-and-description .main-title {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 400;
   }
 
   .title-and-description .hero-title {
-    font-size: 5rem;
-    width: 60%;
+    font-size: 4.2em;
     font-weight: 900;
+    line-height: 50pt;
   }
 
   .title-and-description .description-text {
-    width: 50%;
-    font-weight: 600;
+    max-width: 650px;
+    width: 100%;
+    font-weight: 550;
     font-size: 1em;
     line-height: 2em;
   }
 
-  .title-and-description .program-time {
-    font-size: 2.5rem;
-    font-weight: 900;
-  }
-
   .title-and-description .program-place {
-    font-size: 1.5rem;
+    font-size: 1.2em;
   }
 
   .main-program .program-container {
     flex-direction: row;
     gap: 0.2rem;
+  }
+
+  .content {
+    height: 250px;
   }
 
   .content:hover {
@@ -604,8 +627,9 @@ nav.change .logo {
     flex-direction: column;
   }
 
-  .content .icon img {
-    width: 50%;
+  .content .title {
+    text-align: center;
+    font-size: 1.5em;
   }
 
   .main-program .program-container .last {
@@ -618,50 +642,25 @@ nav.change .logo {
 
   .main-program {
     background-size: 4%;
-    padding: 4rem 10rem;
     width: 100%;
+    max-width: var(--main-mx-width);
   }
 
-  .main-program-title::after {
-    top: 8rem;
-  }
 
+  
   /* *****************featured speaker *********** */
-
-  .featured-speaker {
-    padding: 2rem 10rem;
-    background-color: var(--main-color-gray);
-  }
+    
 
   .dynamic-content-container {
-    padding: 4rem 0;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2rem;
+    margin: 1em 0;
+    gap: 1em;
   }
 
   .image-and-description-container {
-    width: 45%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 1.5rem;
-  }
-
-  .image-and-description-container .transparent-image {
-    top: 5px;
-    left: 5px;
-    height: 50%;
-  }
-
-  .name-and-description-container {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    font-size: 1rem;
+    width: 48%;
   }
 
   .name-and-description-container .name-of-professor {
